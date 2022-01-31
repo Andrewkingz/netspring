@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Main_Container{
+    
+    width: 100%;
+    background-color: white;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 95%;
+   
+    padding-right: 30px;
+}
+
+.Navs>a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.Navs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+
+.btn1{
+    width: 60px;
+    height: 40px;
+    font-weight: bold;
+    background-color: white;
+    border: 0px;
+
+}
+
+.btn2{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: black;
+}
+
+.Header>img{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+
+    
